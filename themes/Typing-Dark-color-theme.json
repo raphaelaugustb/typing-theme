@@ -119,7 +119,7 @@
 		},
 		{
 			"name": "try and catch",
-			"scope":"keyword.control.trycatch",
+			"scope":"keyword.control.trycatch,keyword.operator.relational,keyword.operator.logical,keyword.operator.type,keyword.operator.comparison,keyword.operator.assignment,keyword.operator.logical,keyword.operator.assignment.compound,keyword.operator.arithmetic,keyword.operator.assignment.compound,entity.name.type",
 			"settings": {
 				"foreground": "#b63f84",
 			}
