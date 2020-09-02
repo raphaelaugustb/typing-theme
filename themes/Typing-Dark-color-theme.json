@@ -60,7 +60,7 @@
 		},
 		{
 			"name": "Default",
-			"scope":"keyword.control.default,support.type.property-name,entity.other.attribute-name",
+			"scope":"keyword.control.default,support.type.property-name,entity.other.attribute-name,keyword.control.conditional,variable.other.readwrite,storage.modifier.async,keyword.control.flow",
 			"settings": {
 				"foreground": "#8c68db",
 			}
@@ -115,6 +115,13 @@
 			"scope":"entity.name.tag.wildcard,entity.other.attribute-name.class,entity.other.attribute-name.id",
 			"settings": {
 				"foreground": "#9ee7ec",
+			}
+		},
+		{
+			"name": "try and catch",
+			"scope":"keyword.control.trycatch",
+			"settings": {
+				"foreground": "#b63f84",
 			}
 		}
 	]

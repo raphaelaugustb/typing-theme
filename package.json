@@ -1,6 +1,6 @@
 {   
     "publisher": "August",
-    "icon": "/home/raphael/typing/typing-theme/Typing.png",
+    "icon": "Typing.png",
     "galleryBanner":{
         "color": "#27293d",
         "theme": "dark"
@@ -12,7 +12,7 @@
     "name": "typing-theme",
     "displayName": "Typing Theme",
     "description": "It's a theme focused in performance, but it's also so beautiful",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "engines": {
         "vscode": "^1.48.0"
     },
