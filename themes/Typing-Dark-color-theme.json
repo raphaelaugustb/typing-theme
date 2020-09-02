@@ -60,7 +60,7 @@
 		},
 		{
 			"name": "Default",
-			"scope":"keyword.control.default,support.type.property-name,entity.other.attribute-name,keyword.control.conditional,variable.other.readwrite,storage.modifier.async,keyword.control.flow",
+			"scope":"keyword.control.default,support.type.property-name,entity.other.attribute-name,keyword.control.conditional,variable.other.readwrite,storage.modifier.async,constant.language",
 			"settings": {
 				"foreground": "#8c68db",
 			}
@@ -122,6 +122,13 @@
 			"scope":"keyword.control.trycatch,keyword.operator.relational,keyword.operator.logical,keyword.operator.type,keyword.operator.comparison,keyword.operator.assignment,keyword.operator.logical,keyword.operator.assignment.compound,keyword.operator.arithmetic,keyword.operator.assignment.compound,entity.name.type",
 			"settings": {
 				"foreground": "#b63f84",
+			}
+		},
+		{
+			"name": "return",
+			"scope":"keyword.control.flow",
+			"settings": {
+				"foreground": "#7152fa",
 			}
 		}
 	]
