@@ -32,7 +32,7 @@
 	"tokenColors": [
 		{
 			"name": "Comments",
-			"scope":"comment.line.double-slash,punctuation.definition.comment",
+			"scope":"comment.line.double-slash,punctuation.definition.comment,comment.block",
 			"settings": {
 				"foreground": "#4e4e4e"
 			}
@@ -46,7 +46,7 @@
 		},
 		{
 			"name": "Variables",
-			"scope":"storage.type,variable.other.object,keyword.operator.new",
+			"scope":"storage.type,variable.other.object,keyword.operator.new,storage.modifier",
 			"settings": {
 				"foreground": "#7442e0",
 			}
@@ -67,7 +67,7 @@
 		},
 		{
 			"name": "keys",			
-			"scope":"variable.other.readwrite.alias",
+			"scope":"variable.other.readwrite.alias,constant.language.boolean,support.type.builtin",
 			"settings": {
 				"foreground": "#65ebc9",
 				
@@ -126,3 +126,4 @@
 		}
 	]
 }
+

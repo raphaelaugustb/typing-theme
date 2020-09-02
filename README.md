@@ -5,8 +5,12 @@
 <p align="center">
   <a href="https://github.com/raphaelaugustb/" target="blank"><img src="./TypingLogo.png" width="400" alt="Tecnologias" /></a>
 </p>
-##I Recommend to use JetBrains Mono font.
-# Theme
+
+
+<h3 align="center">Recommend to use JetBrains Mono font.</h3>
+
+
+<h1>Theme<h1>
 <table>
   <tr>
     <td valign="top">
@@ -24,14 +28,14 @@
 Contributions are always welcome.
 
 There's a bunch of ways you can contribute to this project, like by:
-- :electric_plug: Making a port of this theme for another apps
-- :wave: Requesting a port
-- :beetle: Reporting a bug
-- :page_facing_up: Improving this documentation
-- :rotating_light: Sharing this project and recommending it to your friends
-- :dollar: Supporting this project on Patreon
-- :bug: Funding an issue on IssueHunt
-- :star2: Dropping a star on this repository
-- :thumbsup: Voting on ProductHunt
+- Making a port of this theme for another apps
+- Requesting a port
+- Reporting a bug
+- Improving this documentation
+- Sharing this project and recommending it to your friends
+- Supporting this project on Patreon
+- Funding an issue on IssueHunt
+- Dropping a star on this repository
+- Voting on ProductHunt
 
 
