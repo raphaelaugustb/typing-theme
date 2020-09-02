@@ -1,0 +1,121 @@
+{
+	"name": "Typing-Dark",
+	"type": "dark",
+	"colors": {
+		"editor.background": "#1D1E2C",
+		"editor.foreground": "#eeffff",
+		"activityBarBadge.background": "#007acc",
+		"sideBarTitle.foreground": "#bbbbbb",
+		"sideBar.background": "#27293d",
+		"activityBar.background": "#383a57",
+		"editorGroupHeader.tabsBackground": "#27293d",
+		"editorGroupHeader.border": "#202235",
+		"statusBar.background": "#202235",
+		"sideBar.foreground": "#FFF",
+		"statusBar.foreground": "#FFF",
+		"statusBar.noFolderBackground": "#202235",
+		"activityBar.border": "#1D1E2C",
+		"activityBar.activeBorder": "#1D1E2C",
+		"sideBar.border": "#1D1E2C",
+		"sideBarSectionHeader.border": "#1D1E2C"
+	},
+	"workbench.colorCustomizations":{
+		"statusBar.noFolderBackground": "#202235",
+		"statusBar.background": "#202235",
+		"activityBar.border": "#1D1E2C",
+		"activityBar.activeBorder": "#1D1E2C",
+		"sideBar.border": "#1D1E2C",
+		"sideBarSectionHeader.border": "#1D1E2C",
+		
+	},
+
+	"tokenColors": [
+		{
+			"name": "Comments",
+			"scope":"comment.line.double-slash,punctuation.definition.comment",
+			"settings": {
+				"foreground": "#4e4e4e"
+			}
+		},
+		{
+			"name": "Import and Export",
+			"scope":"keyword.control.import,keyword.control.export,keyword.control.from",
+			"settings": {
+				"foreground": "#8c68db",
+			}
+		},
+		{
+			"name": "Variables",
+			"scope":"storage.type,variable.other.object,keyword.operator.new",
+			"settings": {
+				"foreground": "#7442e0",
+			}
+		},
+		{
+			"name": "Function",
+			"scope":"entity.name.function,constant.numeric,support.constant.property-value,entity.name.tag",
+			"settings": {
+				"foreground": "#65ebc9",
+			}
+		},
+		{
+			"name": "Default",
+			"scope":"keyword.control.default,support.type.property-name,entity.other.attribute-name",
+			"settings": {
+				"foreground": "#8c68db",
+			}
+		},
+		{
+			"name": "keys",			
+			"scope":"variable.other.readwrite.alias",
+			"settings": {
+				"foreground": "#65ebc9",
+				
+			}
+		},
+		{
+			"name": "Typing Variaple",
+			"scope":"variable.object.property,variable.other.property",
+			"settings": {
+				"foreground": "#52b4f5",
+				
+			}
+		},
+		{
+			"name": "Paramater",
+			"scope":"variable.parameter",
+			"settings": {
+				"foreground": "#d66639",
+				
+			}
+		},
+		{
+			"name": "String",
+			"scope":"string.quoted.single,string.quoted.double,constant.numeric.decimal",
+			"settings": {
+				"foreground": "#1ce0e0",
+			}
+		},
+		{
+			"name": "Class and Interface name",
+			"scope":"entity.name.type.class,entity.name.type.interface",
+			"settings": {
+				"foreground": "#14ccec",
+			}
+		},
+		{
+			"name": "Typing",
+			"scope":"support.type.primitive",
+			"settings": {
+				"foreground": "#9ee7ec",
+			}
+		},
+		{
+			"name": "css class and tag",
+			"scope":"entity.name.tag.wildcard,entity.other.attribute-name.class,entity.other.attribute-name.id",
+			"settings": {
+				"foreground": "#9ee7ec",
+			}
+		}
+	]
+}
