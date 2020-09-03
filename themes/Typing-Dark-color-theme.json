@@ -39,24 +39,32 @@
 		},
 		{
 			"name": "Import and Export",
-			"scope":"keyword.control.import,keyword.control.export,keyword.control.from",
+			"scope":"keyword.control.import,keyword.control.export,keyword.control.from,storage.type",
 			"settings": {
 				"foreground": "#8c68db",
 			}
 		},
 		{
 			"name": "Variables",
-			"scope":"storage.type,variable.other.object,keyword.operator.new,storage.modifier",
+			"scope":"variable.other.object,keyword.operator.new,storage.modifier,punctuation.definition.template-expression",
 			"settings": {
-				"foreground": "#7442e0",
+				"foreground": "#704ac2",
 			}
 		},
 		{
-			"name": "Function",
+			"name": "Booleand,Property",
 			"scope":"entity.name.function,constant.numeric,support.constant.property-value,entity.name.tag",
 			"settings": {
 				"foreground": "#65ebc9",
 			}
+		},
+		{
+			"name": "Function",
+			"scope":"entity.name.function",	
+			"settings": {
+				"foreground": "#80e1ff",
+			}
+			
 		},
 		{
 			"name": "Default",
@@ -67,61 +75,61 @@
 		},
 		{
 			"name": "keys",			
-			"scope":"variable.other.readwrite.alias,constant.language.boolean,support.type.builtin",
-			"settings": {
-				"foreground": "#65ebc9",
-				
-			}
-		},
-		{
-			"name": "Typing Variaple",
-			"scope":"variable.object.property,variable.other.property",
-			"settings": {
-				"foreground": "#52b4f5",
-				
-			}
-		},
-		{
-			"name": "Paramater",
-			"scope":"variable.parameter",
-			"settings": {
-				"foreground": "#d66639",
-				
-			}
-		},
-		{
-			"name": "String",
-			"scope":"string.quoted.single,string.quoted.double,constant.numeric.decimal",
-			"settings": {
-				"foreground": "#1ce0e0",
-			}
-		},
-		{
-			"name": "Class and Interface name",
-			"scope":"entity.name.type.class,entity.name.type.interface",
-			"settings": {
-				"foreground": "#14ccec",
-			}
-		},
-		{
-			"name": "Typing",
-			"scope":"support.type.primitive",
-			"settings": {
-				"foreground": "#9ee7ec",
-			}
-		},
-		{
-			"name": "css class and tag",
-			"scope":"entity.name.tag.wildcard,entity.other.attribute-name.class,entity.other.attribute-name.id",
-			"settings": {
-				"foreground": "#9ee7ec",
-			}
-		},
-		{
-			"name": "try and catch",
-			"scope":"keyword.control.trycatch,keyword.operator.relational,keyword.operator.logical,keyword.operator.type,keyword.operator.comparison,keyword.operator.assignment,keyword.operator.logical,keyword.operator.assignment.compound,keyword.operator.arithmetic,keyword.operator.assignment.compound,entity.name.type",
-			"settings": {
-				"foreground": "#b63f84",
+				"scope":"variable.other.readwrite.alias,constant.language.boolean,support.type.builtin,meta.brace.square,",
+				"settings": {
+					"foreground": "#65ebc9",
+					
+				}
+			},
+			{
+				"name": "Typing Variaple",
+				"scope":"variable.object.property,variable.other.property",
+				"settings": {
+					"foreground": "#52b4f5",
+					
+				}
+			},
+			{
+				"name": "Paramater",
+				"scope":"variable.parameter",
+				"settings": {
+					"foreground": "#d66639",
+					
+				}
+			},
+			{
+				"name": "String",
+				"scope":"string.quoted.single,string.quoted.double,constant.numeric.decimal,punctuation.definition.string.template,string.template,",
+				"settings": {
+					"foreground": "#1ce0e0",
+				}
+			},
+			{
+				"name": "Class and Interface name",
+				"scope":"entity.name.type.class,entity.name.type.interface",
+				"settings": {
+					"foreground": "#14ccec",
+				}
+			},
+			{
+				"name": "Typing",
+				"scope":"support.type.primitive",
+				"settings": {
+					"foreground": "#9ee7ec",
+				}
+			},
+			{
+				"name": "css class and tag",
+				"scope":"entity.name.tag.wildcard,entity.other.attribute-name.class,entity.other.attribute-name.id",
+				"settings": {
+					"foreground": "#9ee7ec",
+				}
+			},
+			{
+				"name": "try and catch",
+				"scope":"keyword.control.trycatch,keyword.operator.relational,keyword.operator.logical,keyword.operator.type,keyword.operator.comparison,keyword.operator.assignment,keyword.operator.logical,keyword.operator.assignment.compound,keyword.operator.arithmetic,keyword.operator.assignment.compound,entity.name.type,keyword.operator.spread",
+				"settings": {
+					"foreground": "#b63f84",
 			}
 		},
 		{
