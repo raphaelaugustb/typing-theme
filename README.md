@@ -24,6 +24,8 @@
     </td>
 </table>
 
+![theme-preview](https://i.imgur.com/C8RVYpc.png)
+
 # Contributing
 Contributions are always welcome.
 
