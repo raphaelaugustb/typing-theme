@@ -13,7 +13,7 @@
     "name": "typing-theme",
     "displayName": "Typing Theme",
     "description": "It's a theme focused in performance, but it's also so beautiful",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "engines": {
         "vscode": "^1.48.0"
     },
