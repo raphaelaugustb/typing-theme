@@ -2,6 +2,9 @@
 	"name": "Typing-Theme",
 	"type": "dark",
 	"colors": {
+		"tab.inactiveBackground": "#27293d",
+		"titleBar.activeBackground": "#383a57",
+		"titleBar.inactiveBackground": "#383a57",
 		"editor.background": "#1D1E2C",
 		"editor.foreground": "#eeffff",
 		"activityBarBadge.background": "#007acc",
